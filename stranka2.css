@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffcc00, #ff6600); /* Farba pozadia sa mení gradientom od žltej (#ffcc00) k oranžovej (#ff6600) */
+    color: #333; /* Farba textu */
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #009688;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+hr {
+    border: 1px solid #009688;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #ff6600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #009688;
+    text-decoration: underline;
+}
