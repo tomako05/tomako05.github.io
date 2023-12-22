@@ -1,0 +1,152 @@
+body {
+    background: linear-gradient(to right, #3394f5,rgb(192, 7, 84));
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.tb-1 {
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    background: rgb(10, 1, 54);
+    block-size: 0;
+    
+    
+}
+.tb-1 th{ 
+    width: 20%;
+
+}
+
+.tb-2 {
+    margin: 0 auto;
+}
+.on-txt-1 {
+    white-space: pre-line;
+}
+
+.pn-txt-2 {
+    white-space: pre-line;
+}
+
+.pn-img-1 {
+    max-width: 60% !important;
+    height: auto !important;
+    display: block;
+}
+.pn-tb2 td{
+    width: 50%;
+}
+.on-img-1 {
+    max-width: 40% !important;
+    height: auto !important;
+    display: block;
+    
+}
+.on-img-2{
+    max-width: 70% !important;
+    height: auto !important;
+    display: block;
+
+}
+.cn-tb-2{
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: 45px;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+}
+.cn-tb-2 tr{
+    border: 3px solid black;
+    border-collapse: collapse;
+    
+}
+.cn-tb-2 td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    
+}
+.cn-tb-2 th{
+    border: 3px solid black;
+    border-collapse: collapse;
+    
+}
+.cn-n1{
+    text-align: center;
+}
+.ft-n1{
+    text-align: center;
+}
+.ft-tb2{
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.ft-tb2-img{
+    max-width: 300px !important;
+    height: auto !important;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+.ft-tb2 td{
+    width: 33%;
+    text-align: center;
+    border: 5px solid black;
+    border-collapse: collapse;
+    
+}
+
+.ft-tb2 tr{
+    border: 5px solid black;
+    border-collapse: collapse;
+    
+}
+
+.ft-tb2 th{
+    border: 5px solid black;
+    border-collapse: collapse;
+    
+}
+
+.pn-img-2{
+    max-width: 25% !important;
+    height: auto !important;
+    display: inline-block;
+}
+.in-tb2{
+    margin: 0 auto;
+}
+.in-img-1{
+    width: 300px !important;
+    height: auto !important;
+    display: block;
+}
+.in-img-2{
+    width: 150px !important;
+    height: auto !important;
+    display: block;
+}
+.in-tb3{
+    margin: 0 auto;
+   
+
+}
+@keyframes brightnessAnimation {
+    0%, 100% {
+      filter: brightness(1);
+    }
+    50% {
+      filter: brightness(0.5);
+    }
+  }
